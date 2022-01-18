@@ -13,3 +13,4 @@ if (localStorage.getItem(CURRENT_TIME)) {
 function onPlay(event) {
   localStorage.setItem(CURRENT_TIME, event.seconds === event.duration ? 0 : event.seconds);
 }
+// console.log.apply.apply.apply.
